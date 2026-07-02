@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sage Thoughts | Sage Education Consulting</title>
+  <meta name="description" content="Insights on curriculum, EdTech, strategy, and the business of education — from Lisa Panka at Sage Education Consulting." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ========== NAVIGATION ========== -->
+<nav class="site-nav" id="site-nav">
+  <div class="container nav-inner">
+
+    <a href="index.html" class="nav-logo">
+      <img src="images/sageedu.jpg" alt="Sage Education Consulting" />
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="blog.html">Insights</a></li>
+      <li class="nav-dropdown">
+        <a href="index.html#services">Services</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="curriculum-content-strategy.html">Curriculum &amp; Content Strategy</a></li>
+          <li><a href="vendor-proposal-strategy.html">RFPs, Proposals &amp; Vendor Strategy</a></li>
+          <li><a href="edtech-consulting.html">EdTech Consulting</a></li>
+          <li><a href="strategic-planning.html">Strategic Planning &amp; Growth</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="index.html#who-we-serve">Who We Serve</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="education-vendors.html">Education Vendors</a></li>
+          <li><a href="education-publishers-edtech-companies.html">Education Publishers &amp; EdTech Companies</a></li>
+          <li><a href="schools-districts.html">Schools &amp; School Districts</a></li>
+          <li><a href="small-businesses.html">Small Businesses</a></li>
+        </ul>
+      </li>
+      <li><a href="index.html#contact" class="nav-cta">Work With Us</a></li>
+    </ul>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</nav>
+
+<!-- Mobile full-screen nav overlay -->
+<div class="nav-mobile" id="nav-mobile">
+  <button class="nav-mobile-close" id="nav-close" aria-label="Close">&times;</button>
+  <a href="index.html#about">About</a>
+
+  <a href="blog.html">Insights</a>
+
+  <div class="nav-mobile-group">
+    <a href="index.html#services" class="nav-mobile-parent">Services</a>
+    <div class="nav-mobile-sublinks">
+      <a href="curriculum-content-strategy.html">Curriculum &amp; Content Strategy</a>
+      <a href="vendor-proposal-strategy.html">RFPs, Proposals &amp; Vendor Strategy</a>
+      <a href="edtech-consulting.html">EdTech Consulting</a>
+      <a href="strategic-planning.html">Strategic Planning &amp; Growth</a>
+    </div>
+  </div>
+
+  <div class="nav-mobile-group">
+    <a href="index.html#who-we-serve" class="nav-mobile-parent">Who We Serve</a>
+    <div class="nav-mobile-sublinks">
+      <a href="education-vendors.html">Education Vendors</a>
+      <a href="education-publishers-edtech-companies.html">Education Publishers &amp; EdTech Companies</a>
+      <a href="schools-districts.html">Schools &amp; School Districts</a>
+      <a href="small-businesses.html">Small Businesses</a>
+    </div>
+  </div>
+
+  <a href="index.html#contact">Work With Us</a>
+</div>
+
+
+<!-- ========== PAGE HEADER ========== -->
+<!-- Reuses post-header styles already in styles.css -->
+<section class="post-header">
+  <div class="container">
+    <a href="index.html" class="post-back-link">&larr; Back to Home</a>
+    <span class="eyebrow" style="color: var(--sage-light);">The Blog</span>
+    <h1 class="post-title">Sage Thoughts</h1>
+    <p style="color: var(--sage-light); font-size: 1.125rem; max-width: 520px; margin-top: 0.75rem; font-weight: 300; line-height: 1.7;">
+      Insights on curriculum, EdTech, strategy, and the business of education — from someone who's been inside it.
+    </p>
+  </div>
+</section>
+
+
+<!-- ========== ALL POSTS GRID ========== -->
+<section class="blog-index-section">
+  <div class="container">
+
+    <!-- Filter bar — visual only for now, can be made functional later -->
+    <div class="blog-filter-bar">
+      <span class="blog-filter-label">Filter by topic:</span>
+      <div class="blog-filter-tags">
+        <button class="filter-tag active">All</button>
+        <button class="filter-tag">Leadership</button>
+        <button class="filter-tag">Operations</button>
+        <button class="filter-tag">Strategy</button>
+      </div>
+    </div>
+
+    <div class="blog-grid">
+
+      <!-- POST 1 — most recent -->
+      <article class="blog-card">
+        <div class="blog-card-img">
+          <img src="images/blog1.jpg" alt="Team working together in an office" loading="lazy" />
+          <span class="blog-tag">Leadership</span>
+        </div>
+        <div class="blog-card-body">
+          <p class="blog-meta">January 20, 2025</p>
+          <h3>The Leader's Guide to Effective Delegation</h3>
+          <p>Delegation is a critical skill for any leader. Learn how the "I do, we do, you do" model can transform how your team works.</p>
+          <a href="blog-delegation.html" class="blog-read-more">Read more &rarr;</a>
+        </div>
+      </article>
+
+      <!-- POST 2 -->
+      <article class="blog-card">
+        <div class="blog-card-img">
+          <img src="images/blog2.jpg" alt="Team collaborating around a table" loading="lazy" />
+          <span class="blog-tag">Operations</span>
+        </div>
+        <div class="blog-card-body">
+          <p class="blog-meta">August 7, 2024</p>
+          <h3>Characteristics of Effective Processes</h3>
+          <p>Having ineffective processes can be more frustrating than having none at all. Here are eight characteristics of a process that actually works.</p>
+          <a href="blog-processes.html" class="blog-read-more">Read more &rarr;</a>
+        </div>
+      </article>
+
+      <!-- POST 3 -->
+      <article class="blog-card">
+        <div class="blog-card-img">
+          <img src="images/blog3.jpg" alt="Person drawing a process flowchart" loading="lazy" />
+          <span class="blog-tag">Operations</span>
+        </div>
+        <div class="blog-card-body">
+          <p class="blog-meta">July 1, 2024</p>
+          <h3>Why Should You Establish and Document Processes?</h3>
+          <p>How people in your organization get work done matters just as much as what they produce. Here's why documenting processes is worth the effort.</p>
+          <a href="blog-document-processes.html" class="blog-read-more">Read more &rarr;</a>
+        </div>
+      </article>
+
+      <!-- POST 4 -->
+      <article class="blog-card">
+        <div class="blog-card-img">
+          <img src="images/blog4.jpg" alt="Business person reviewing competitor data" loading="lazy" />
+          <span class="blog-tag">Strategy</span>
+        </div>
+        <div class="blog-card-body">
+          <p class="blog-meta">June 7, 2024</p>
+          <h3>How Does a Competitor Analysis Help Your Business?</h3>
+          <p>Performing a competitor analysis provides valuable insights to help position your company for success. Here's what to look for and why it matters.</p>
+          <a href="blog-competitor-analysis.html" class="blog-read-more">Read more &rarr;</a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ========== CTA BAND ========== -->
+<section id="cta-band">
+  <div class="container">
+    <h2>Ready to move your organization forward?</h2>
+    <p>Let's talk about where you are, where you want to go, and how Sage can help you get there.</p>
+    <a href="index.html#contact" class="btn btn-cta-band">Start the Conversation</a>
+  </div>
+</section>
+
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <img src="images/SAGE_Logo.svg" alt="Sage Education Consulting" class="footer-logo" loading="lazy" />
+        <p>Strategic guidance for the organizations shaping how people learn.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About Lisa</a>
+        <a href="index.html#who-we-serve">Who We Serve</a>
+        <a href="blog.html">Sage Thoughts</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.linkedin.com/company/sage-education-consulting/" target="_blank">LinkedIn</a>
+        <a href="mailto:info@sageeducon.com">info@sageeducon.com</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Sage Education Consulting Inc. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
