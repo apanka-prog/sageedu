@@ -35,7 +35,6 @@ mobileLinks.forEach(function(link) {
 const phrases = [
   'EdTech Companies',
   'Publishers & Authors',
-  'Schools & Districts',
   'Education Startups',
   'Small Education Businesses'
 ];

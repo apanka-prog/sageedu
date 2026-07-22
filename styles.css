@@ -729,6 +729,7 @@ ul { list-style: none; }
 }
 
 .credential-item {
+  margin: 0;
   font-size: 0.875rem;
   color: var(--text-muted);
   padding-left: 1rem;
